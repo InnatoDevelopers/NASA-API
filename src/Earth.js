@@ -117,8 +117,8 @@ class Earth extends Component {
         console.log(dateToPath)
 
         return (
-            <div className="col s3">
-                <img className="responsive-img materialboxed" src={urlImage} alt={caption} key={identifier} />
+            <div className="col s3" key={identifier}>
+                <img className="responsive-img materialboxed" src={urlImage} alt={caption}  />
             </div>
         )
     }
